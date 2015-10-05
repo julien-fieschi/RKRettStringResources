@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>extension</key>
+	<string>m4v</string>
+	<key>title</key>
+	<string>Consent Document</string>
+	<key>VisualStep</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Overview</string>
+			<key>type</key>
+			<string>Overview</string>
+			<key>summary</key>
+			<string>This app aims to help the family and those affected by the Rett Syndrome. It is not a responsability of the app to give a clinical diagnosis for cases of Rett Syndrome, only being used to keep track of data more easily and with pre determined questions.</string>
+			<key>content</key>
+			<string>The developers of the app reserve the right to assume you have read and understood that in no moment this app is responsible for giving diagnosis for Rett Syndrome cases. Also note that the use you give the app is entirely your responsability, we do not cover any psycological or physical damages caused by misuse of this technology. Also this app is part of a bigger study, and this version is the pilot to test if this is a valid way to conduct a medical research.</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Data Gathering</string>
+			<key>type</key>
+			<string>DataGathering</string>
+			<key>summary</key>
+			<string>The app provides interfaces for you to enter data about the day to day life, clinical symptoms and other kinds of data. You are not obliged to do this, it is entirely up to you and all the data entered on the app is your responsability.</string>
+			<key>content</key>
+			<string>We will give you means to store your data in a more usable and readable format. In no moment we take responsability for data loss on your phone. Also all the data will be stored locally under your responsability, if you wish we will provide means for you to export your data in CSV format and share it with your doctor.</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Privacy</string>
+			<key>type</key>
+			<string>Privacy</string>
+			<key>summary</key>
+			<string>You will be presented with pre determined questions and request for data. They were optimized by doctors and parents. You are not obliged to provide them, it is entirely up to you.</string>
+			<key>content</key>
+			<string>We will provide you with a 4 digit passcode to open the app or TouchId authorization and basic encryption of your data on the phone. Other breaches and loss of data are your responsability. We take care to not ask questions that might make you or your child unconfortable, if you recognize signs that she is unconfortable please stop. We also can&apos;t prevent people from seeing data that is currently being shown at your phones screen, take caution. </string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Data Use</string>
+			<key>type</key>
+			<string>DataUse</string>
+			<key>summary</key>
+			<string>In this stage no data will be sent to our servers. The data belongs to you and so you are free to use it as you like.</string>
+			<key>content</key>
+			<string>All of the data is stored locally and is under your responsability. We won&apos;t take data out of your phone, but you are still capable to export it as CSV and share with anyone you like. It belongs to you.</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Time Commitment</string>
+			<key>type</key>
+			<string>TimeCommitment</string>
+			<key>summary</key>
+			<string>The tasks are designed to take as little time as possible. You are responsible of managing your time. Commit as much as you want.  </string>
+			<key>content</key>
+			<string>All the questions are predefined and it might take from 10 to 30 minutes a day to answer all of them. You are completely free to decide how much time you will invest in the questions. You will not be penalised in any way neither rewarded for your time commitment.</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Surveys</string>
+			<key>type</key>
+			<string>StudySurvey</string>
+			<key>summary</key>
+			<string>You will be presented with questions of various types. If you wish you can skip questions.</string>
+			<key>content</key>
+			<string>All the questions were tought to be answered in their integrity, but you, in no case is obligated to answer them. Whenever you feel unconfortable with any questions feel free to skip or stops the taks. You will not be penalised neither rewarded for your answers.</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Tasks</string>
+			<key>type</key>
+			<string>StudyTasks</string>
+			<key>summary</key>
+			<string>There will be tasks that are just a couple of questions and also some that are active steps for the phone to collect data from the Apple Watch in case the child is using one.</string>
+			<key>content</key>
+			<string>The app is based on many tasks, that are made up of steps. Mos of them are questions. Some of them are active steps, like checking something on the Apple Watch if you are using one to keep track of the child movements.You are free to answer whatever you think its best.</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Withdrawing</string>
+			<key>type</key>
+			<string>Withdrawing</string>
+			<key>summary</key>
+			<string>You are free to withdraw from the app at any time.</string>
+			<key>content</key>
+			<string>Withdraw any time you want. You are not compromised with this app or the information it contains. You are free to stop updating the info inside it or delete it from your phone at all times. You can also export your information as CSV before deleting and loosing your data.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

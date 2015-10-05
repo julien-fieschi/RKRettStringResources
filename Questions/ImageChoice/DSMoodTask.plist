@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>taskId</key>
+	<string>METADATA</string>
+	<key>frequencyType</key>
+	<string>daily, weekly, monthly, onDemand</string>
+	<key>frequencyNumber</key>
+	<string>1</string>
+	<key>name</key>
+	<string>Name of Survey Here</string>
+	<key>type</key>
+	<string>METADATA</string>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>answerType</key>
+			<string>Introduction</string>
+			<key>prompt</key>
+			<string>Text shown below the title of the introduction step.</string>
+			<key>questionId</key>
+			<string>METADATA</string>
+		</dict>
+		<dict>
+			<key>answerUnit</key>
+			<string>NSNumber</string>
+			<key>answerType</key>
+			<string>ImageChoice</string>
+			<key>prompt</key>
+			<string>Text shown above the images</string>
+			<key>questionId</key>
+			<string>METADATA</string>
+			<key>imageChoice</key>
+			<array>
+				<dict>
+					<key>selectedImage</key>
+					<string>name of the file of the image for selected state</string>
+					<key>normalImage</key>
+					<string>name of the file of the image for not selected state</string>
+					<key>text</key>
+					<string>text shown below the images when selected</string>
+					<key>value</key>
+					<integer>1</integer>
+				</dict>
+				<dict>
+					<key>selectedImage</key>
+					<string>moodRegularSelected</string>
+					<key>normalImage</key>
+					<string>moodRegularNormal</string>
+					<key>text</key>
+					<string>Regular</string>
+					<key>value</key>
+					<integer>2</integer>
+				</dict>
+				<dict>
+					<key>selectedImage</key>
+					<string>moodBadSelected</string>
+					<key>normalImage</key>
+					<string>moodBadNormal</string>
+					<key>text</key>
+					<string>Bad</string>
+					<key>value</key>
+					<integer>3</integer>
+				</dict>
+			</array>
+			<key>dashboard</key>
+			<dict>
+				<key>graphType</key>
+				<string>METADATA</string>
+				<key>yAxisColName</key>
+				<string>METADATA</string>
+				<key>timeUnit</key>
+				<string>METADATA</string>
+				<key>xScale</key>
+				<string>METADATA</string>
+				<key>yScale</key>
+				<string>METADATA</string>
+				<key>title</key>
+				<string>TITLE TO SHOW ON THE DASHBOARD</string>
+				<key>subtitle</key>
+				<string>SUBTITLE</string>
+				<key>color</key>
+				<dict>
+					<key>red</key>
+					<real>0.498</real>
+					<key>green</key>
+					<real>0.0863</real>
+					<key>blue</key>
+					<real>0.8</real>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>answerType</key>
+			<string>String</string>
+			<key>prompt</key>
+			<string>Use this space to write anything you think it&apos;s important.</string>
+			<key>questionId</key>
+			<string>DSMoodDescription</string>
+		</dict>
+	</array>
+</dict>
+</plist>
